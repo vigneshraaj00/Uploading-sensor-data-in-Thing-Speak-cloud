@@ -1,4 +1,6 @@
-# Uploading temperature sensor data in Thing Speak cloud
+## NAME : Vignesh raaj s
+## REG NO : 212223230239
+# Ex - 03 Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
@@ -75,17 +77,17 @@ Automatically act on your data and communicate using third-party services like T
 #include <WiFi.h>
 #include "DHT.h"
 
-char ssid[]="xx";
-char pass[]="xyz";
+char ssid[]="NO FREE WIFI";
+char pass[]="0987654321";
 
 const int t=25;
 WiFiClient client;
 DHT dht(25, DHT11);
 
-unsigned long myChannelField = 2492690;
+unsigned long myChannelField = 2709725;
 const int ChannelField1 = 1 ; 
 const int ChannelField2 = 2 ;
-const char *myWriteAPIKey="RF8WCRR152XWWRQW";
+const char *myWriteAPIKey="UBMYF6M8VFLQ5MUS";
 
 void setup()
 {
@@ -132,7 +134,7 @@ void loop()
 
 # OUTPUT:
 ## THINGSPEAK
-![image](https://github.com/user-attachments/assets/bc32ceff-5673-4ba1-8a06-2edb6d50c6d0)
+![Screenshot 2024-10-26 145046](https://github.com/user-attachments/assets/64903752-652b-47e3-970b-703e60e1709a)
 
 
 ## SERIAL MONITOR
